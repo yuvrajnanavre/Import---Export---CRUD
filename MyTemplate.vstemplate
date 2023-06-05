@@ -1,0 +1,51 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>USD rate</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>Web</ProjectType>
+    <ProjectSubType>CSharp</ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>USD rate</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="ProjectName.webproj" File="ProjectName.webproj" ReplaceParameters="true">
+      <Folder Name="App_Code" TargetFolderName="App_Code" />
+      <Folder Name="ExcelUpload" TargetFolderName="ExcelUpload">
+        <ProjectItem ReplaceParameters="false" TargetFileName="Book1.xlsx">Book1.xlsx</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="StatusReport22-02-2023 20_44_52.xls">StatusReport22-02-2023 20_44_52.xls</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="tblusdrate.xlsx">tblusdrate.xlsx</ProjectItem>
+      </Folder>
+      <Folder Name="Images" TargetFolderName="Images">
+        <ProjectItem ReplaceParameters="false" TargetFileName="excel.png">excel.png</ProjectItem>
+      </Folder>
+      <Folder Name="MyFolder" TargetFolderName="MyFolder">
+        <ProjectItem ReplaceParameters="false" TargetFileName="abc.xls">abc.xls</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="abc.xlsx">abc.xlsx</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Book1.xlsx">Book1.xlsx</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="C basics.xlsx">C basics.xlsx</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="gmaillogin.xlsx">gmaillogin.xlsx</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="OutPut.xlsx">OutPut.xlsx</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="q.xls.xlsx">q.xls.xlsx</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="q.xlsx">q.xlsx</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="StatusReport22-02-2023 14_28_53.xls">StatusReport22-02-2023 14_28_53.xls</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="StatusReport22-02-2023 14_35_07.xls">StatusReport22-02-2023 14_35_07.xls</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="StatusReport22-02-2023 20_44_52.xls">StatusReport22-02-2023 20_44_52.xls</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="tblusdrate.xlsx">tblusdrate.xlsx</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="redirectto.aspx">redirectto.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="redirectto.aspx.cs">redirectto.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="register.aspx">register.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="register.aspx.cs">register.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Simpleimport.aspx">Simpleimport.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Simpleimport.aspx.cs">Simpleimport.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="spimport.aspx">spimport.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="spimport.aspx.cs">spimport.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="web.config">web.config</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
